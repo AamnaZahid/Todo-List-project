@@ -1,0 +1,33 @@
+
+      .navigation {
+        background-color: #d3941e;
+        display: flexbox;
+        stroke: #d3941e;
+        /* justify-content: center; */
+        /* align-items: center; */
+      }
+
+      ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+
+        padding: 0;
+        margin: 0;
+        max-width: 960px;
+        width: 100%;
+      }
+
+      li {
+        margin:  20px;
+      }
+
+      a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
